@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+div.square {
+    width: 25vw;
+    height: 25vh;
+    flex-direction: column;
+    background-color: #FFF;
+}
+
+div.square:hover {
+    width: 25vw;
+    height: 25vh;
+    flex-direction: column;
+    background-color: #33C8EA; 
+    border: 1px solid #000;
+}
+
+#btn {
+    width: 100vw;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #33C8EA; 
+}
+
+#btn:hover {
+    width: 100vw;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FFF;
+     
+}
+
